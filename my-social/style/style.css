@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+#phone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: url(../images/phone-wockup.png) no-repeat fixed top center cover;
+}
